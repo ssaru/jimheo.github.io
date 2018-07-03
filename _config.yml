@@ -1,7 +1,7 @@
 # Setup
 title:               The blog
 tagline:             'of Jimmy/Jim from Lubycon'
-description:         'JimintheBox'
+description:         'JimintheBox Category'
 url:                 https://jimheo.github.io
 baseurl:             ''
 paginate:            5
