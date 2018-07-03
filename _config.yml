@@ -1,7 +1,7 @@
 # Setup
-title:               Jim
-tagline:             'in the Box'
-description:         'The blog of Jimmy/Jim from Lubycon'
+title:               The blog
+tagline:             'of Jimmy/Jim from Lubycon'
+description:         'JimintheBox'
 url:                 https://jimheo.github.io
 baseurl:             ''
 paginate:            5
