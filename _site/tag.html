@@ -11,7 +11,7 @@
 
   <title>
     
-      What's Jekyll? &middot; The blog
+      Tags &middot; The blog
     
   </title>
 
@@ -39,7 +39,11 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
-    <p><a strong><font size="5">JimintheBox Category</font></a></p>
+
+    <p><a strong><font size="5">JimintheBox</font></a></p>
+      <a>
+        <img src="/public/palo.jpeg" />
+      </a>
   </div>
 
   <nav class="sidebar-nav">
@@ -59,21 +63,18 @@
     
       
         
-          <a class="sidebar-nav-item" href="/about.html">About</a>
-        
       
     
       
     
       
         
-          <a class="sidebar-nav-item" href="/test.html">Test</a>
+          <a class="sidebar-nav-item active" href="/tag.html">Tags</a>
         
       
     
 
-    <a class="sidebar-nav-item" href="/archive/v1.0.0.zip">Download</a>
-    <a class="sidebar-nav-item" href="">GitHub project</a>
+    <a class="sidebar-nav-item" href="https://github.com/jimheo">GitHub project</a>
   </nav>
 
   <div class="sidebar-item">
@@ -97,44 +98,50 @@
       </div>
 
       <div class="container content">
-        <div class="post">
-  <h1 class="post-title">What's Jekyll?</h1>
-  <span class="post-date">31 Dec 2013</span>
-  <p><a href="http://jekyllrb.com">Jekyll</a> is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From <a href="https://github.com/mojombo/jekyll/blob/master/README.markdown">the project’s readme</a>:</p>
+        <div class="page">
+  <h1 class="page-title">Tags</h1>
+  <ul class="tag-cloud">
 
-<blockquote>
-  <p>Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.</p>
-</blockquote>
+  <span style="font-size: 120%">
+    <a href="#github">
+      github
+    </a> &nbsp;&nbsp;
+  </span>
 
-<p>It’s an immensely useful tool and one we encourage you to use here with Lanyon.</p>
+  <span style="font-size: 120%">
+    <a href="#jekyll">
+      jekyll
+    </a> &nbsp;&nbsp;
+  </span>
 
-<p>Find out more by <a href="https://github.com/mojombo/jekyll">visiting the project on GitHub</a>.</p>
+</ul>
+
+<div id="archives">
+
+  <div class="archive-group">
+    
+    <h3 id="#github">github</h3>
+    <a name="github"></a>
+    
+    <article class="archive-item">
+      <h4><a href="/2018/07/04/TheBlog.html">블로그 시작합니다.</a></h4>
+    </article>
+    
+  </div>
+
+  <div class="archive-group">
+    
+    <h3 id="#jekyll">jekyll</h3>
+    <a name="jekyll"></a>
+    
+    <article class="archive-item">
+      <h4><a href="/2018/07/04/TheBlog.html">블로그 시작합니다.</a></h4>
+    </article>
+    
+  </div>
 
 </div>
 
-<div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    
-      <li>
-        <h3>
-          <a href="/2014/01/02/introducing-lanyon.html">
-            Introducing Lanyon
-            <small>02 Jan 2014</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
-          <a href="/2014/01/01/example-content.html">
-            Example content
-            <small>01 Jan 2014</small>
-          </a>
-        </h3>
-      </li>
-    
-  </ul>
 </div>
 
       </div>
@@ -159,5 +166,6 @@
         }, false);
       })(document);
     </script>
+    <script id="dsq-count-scr" src="//jimheo.disqus.com/count.js" async></script>
   </body>
 </html>
