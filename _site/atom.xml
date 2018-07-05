@@ -4,7 +4,7 @@
  <title>The blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-07-04T21:14:27+09:00</updated>
+ <updated>2018-07-05T20:54:58+09:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Jim</name>
@@ -13,13 +13,11 @@
 
  
  <entry>
-   <title>블로그 시작합니다.</title>
-   <link href="http://localhost:4000/2018/07/04/TheBlog.html"/>
+   <title>Machine Learning study 1주차</title>
+   <link href="http://localhost:4000/2018/07/04/LogisticRegression.html"/>
    <updated>2018-07-04T00:00:00+09:00</updated>
-   <id>http://localhost:4000/2018/07/04/TheBlog</id>
-   <content type="html">&lt;h2 id=&quot;githubio를-이용한-블로그-운영&quot;&gt;github.io를 이용한 블로그 운영&lt;/h2&gt;
-&lt;p&gt;&lt;br /&gt;
-MARKDOWN 문법의 연습이 필요합니다.&lt;/p&gt;
+   <id>http://localhost:4000/2018/07/04/LogisticRegression</id>
+   <content type="html">
 </content>
  </entry>
  
