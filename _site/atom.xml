@@ -4,7 +4,7 @@
  <title>The blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2018-07-05T20:54:58+09:00</updated>
+ <updated>2018-07-05T22:14:23+09:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Jim</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Machine Learning study 1주차</title>
-   <link href="http://localhost:4000/2018/07/04/LogisticRegression.html"/>
+   <link href="http://localhost:4000/deep%20learning/2018/07/04/LogisticRegression.html"/>
    <updated>2018-07-04T00:00:00+09:00</updated>
-   <id>http://localhost:4000/2018/07/04/LogisticRegression</id>
+   <id>http://localhost:4000/deep%20learning/2018/07/04/LogisticRegression</id>
    <content type="html">
 </content>
  </entry>
