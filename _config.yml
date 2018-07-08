@@ -1,8 +1,8 @@
 # Setup
-title:               The blog
-tagline:             'of Jimmy/Jim from Lubycon'
-description:         '<a strong><font size="5">JimintheBox</font></a>'
-url:                 https://jimheo.github.io/
+title:               Martin
+tagline:             'Growth Hacker'
+description:         '<a strong><font size="5">Martin</font></a>'
+url:                 https://ssaru.github.io/
 baseurl:             ''
 paginate:            5
 paginate_path:       '/blog/page:num'
@@ -11,17 +11,15 @@ gem:                 [jekyll-paginate]
 
 # About/contact
 author:
-  name:              Jim
-  email:             gjwlals111@gmail.com
-  url:               https://jimheo.github.io/
-  gravatar:          https://ko.gravatar.com/gjwlals111565003472
-  photo:             https://secure.gravatar.com/avatar/11c650c5a808a5ce1a7ad1c1c9bdb4cd
+  name:              Martin
+  email:             dhhwang89@gmail.com
+  url:               https://ssaru.github.io/
 
 # Custom vars
 version:             1.0.0
 
 github:
-  repo:              https://github.com/jimheo
+  repo:              https://github.com/ssaru
 
 disqus:
-  shortname:         jimheo
+  shortname:         martin
