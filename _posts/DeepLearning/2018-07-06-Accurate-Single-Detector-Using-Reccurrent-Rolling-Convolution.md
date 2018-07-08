@@ -2,7 +2,7 @@
 layout: post
 title: 논문리뷰-Accurate Single Detector Using Reccurrent Rolling Convolution (RRC)
 comments: true
-category: Deeplearning
+category: Deep Learning
 tags:
 - ML
 - Object Detection
