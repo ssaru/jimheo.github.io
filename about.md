@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-![martin]({{site.url}}/public/profile.png){:.aligncenter}
+![martin]({{site.url}}/public/palo.jpeg){:.aligncenter}
 
 <p class="message">
   No man ever steps in the same river twice, for it’s not the same river and he’s not the same man.
