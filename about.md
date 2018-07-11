@@ -11,7 +11,7 @@ title: About
 
 ## Career
 
-* Deeplearning Engineer in [Aidentify](http://www.aidentify.io/)(2016.10~2016.05)
+* Deeplearning Engineer in [Aidentify](http://www.aidentify.io/)(2016.10~2017.05)
 * Deeplearning Engineer in [EnumNet](https://www.enumcut.com/)(2017.05~2017.12)
 * Deeplearning Enginner in [Korea Electronics Technology Institue](https://www.keti.re.kr/main/main.php)(2018.01 ~ )
 
