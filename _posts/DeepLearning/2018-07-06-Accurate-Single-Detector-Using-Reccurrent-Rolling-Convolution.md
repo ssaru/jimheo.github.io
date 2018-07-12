@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 논문리뷰-Accurate Single Detector Using Recurrent Rolling Convolution (RRC)
+title: 논문리뷰-Accurate Single Detector Using Recurrent Rolling Convolution (RRC)-Done yet
 comments: true
 category: Deep Learning
 tags:
