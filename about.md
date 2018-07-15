@@ -37,6 +37,6 @@ title: About
 
 ## Contact
 
-* dhhwang89@gmail.com
+* <dhhwang89@gmail.com>
 
 
