@@ -17,7 +17,6 @@ tags:
 
 ## 목차
 
-- 이직
 - 발단(왜 나는 삶을 체계적으로 준비하게 되었는가?)
 - 딥러닝을 공부하는 청년백수 모임
 - 활동
@@ -27,24 +26,6 @@ tags:
 - 2018년 아쉬웠던 점
 - 2019년을 준비하며
 - 정리 및 맺음말
-
-​    
-
-## 이직
-
-2017년 말 즈음 잘 다니고 있던 회사를 퇴사하고 현재의 직장으로 이직을 결심하게 되었다.  이 당시에는 스스로에 대해서 체계적인 생각을 하고있지 않았으나 이직을 결심하게된 중대한 계기는 몇가지가 있었다.
-
-- 규모가 있는 회사에  대한 호기심
-- 연구원 문화에 대한 호기심
-- 모두의 연구소에서 진행하던 Lab환경과 비슷한 업무환경에 대한 기대
-
-
-
-2017년 8월 즈음 모두의 연구소의 Deep Advanced Lab에 들어가게되었다. 여기서 만난 몇몇분들의 영향을 굉장히 많게 되었는데 제일 중요한건 재미있다는 느낌을 받았다는 것.
-
-Deep Advanced Lab에서 딥러닝 주류의 논문들을 읽고 발표하며 토론하는 것을 통해 큰 성장을 하고있다는 느낌을 받았다. 이렇게 Deep Advaned Lab에서 진행하는 것과 같이 회사사람들과 서로 공부한 것을 토의하고 논쟁하며 성장하고싶다는 느낌을 크게 받았다.
-
-이런 생각을 하던 와중에, Object Detection쪽으로 Deep Advaned Lab에 계시던 분과 토의하고 자료를 공유하다가 현 직장의 이직 제안을 받게 되었고 위의 3가지 요소를 이룰 수 있다는 생각이 들어 이직을 결심하게되었다.
 
 ​    
 
@@ -105,13 +86,13 @@ Deep Advanced Lab에서 딥러닝 주류의 논문들을 읽고 발표하며 토
 커뮤니티 성격이 아닌, 프로젝트성격의 활동으로 2018년에 진행한 활동은 다음과 같은 활동이 있다.
 
 - Self-Driving Lab [2017.08 ~ 2018.08]
-- Object Detection Implementation Project [2018.07 ~ 진행 중]
+- Object Detection Implementation Project [2018.08 ~ 진행 중]
 
 ​    
 
 ### Self-Driving Lab [2017.08~2018.08]  
 
-Self-Driving Lab은 앞에서 언급한 Deep Advanced Lab의 랩장님이 이직으로 인해 대구로 거주지를 옮기게 되면서 Self-Driving Lab으로 변경되어 자율차량에 관련된 연구를 하게되었다.  Self-Driving Lab에서 주로 진행했던 것들은 다음과 같다.
+Self-Driving Lab은 Deep Advanced Lab의 랩장님이 이직으로 인해 대구로 거주지를 옮기게 되면서 Self-Driving Lab으로 변경되어 자율차량에 관련된 연구를 하게되었다.  Self-Driving Lab에서 주로 진행했던 것들은 다음과 같다.
 
 ​    
 
@@ -141,7 +122,7 @@ Self-Driving Lab은 앞에서 언급한 Deep Advanced Lab의 랩장님이 이직
 
 
 
-내가 주로 발표를 맡았던 부분은 [v] 마크로 표기했다.
+내가 발표를 맡았던 부분은 [v] 마크로 표기했다.
 
 ​    
 
@@ -191,7 +172,7 @@ Object Detection 구현 모임은 Object Detection 논문은 많이 읽었는데
 
 이제 곧 2019년을 맞이하게 된다. 2019년에는 대학원과 회사업무의 병행 / 2020년의 지출목표 / 등으로 인해서 삶도 더 타이트하게 돌아갈 예정이다. 
 
-2019년을 위해서 Product BackLog Item을 쌓아보았다.
+2019년을 위해서 Product BackLog Item을 정해보았다.
 
 - [ 중요도 : 90 / 식단] 삼시세끼 잘 먹어보기
 - [ 중요도 : 90 / 수면] 규칙적 수면습관 기르기
@@ -206,7 +187,7 @@ Object Detection 구현 모임은 Object Detection 논문은 많이 읽었는데
 
 
 
-현재는 Product BackLog Item만 대충 쌓아둔 상황이고, 새해가 오기전에 Sprint Backlog를 위한 상세 설계 및 추청을 진행할 예정이며, 각 Product BackLog Item들은 상/하반기로 나누어서 중간 회고를 진행할 예정이다.
+현재는 대략적인 Product BackLog Item만 정한 상태이나, 새해가 오기전에 Sprint Backlog를 위한 상세 설계 및 추청을 진행할 예정이며, 각 Product BackLog Item들은 상/하반기로 나누어서 중간 회고를 진행할 예정이다.
 
 ​    
 
