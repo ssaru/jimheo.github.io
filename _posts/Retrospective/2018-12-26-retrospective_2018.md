@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [2018 회고] 원하는 삶을 만들기 위한 준비과정
+title: 2018회고-원하는 삶을 만들기 위한 준비과정
 comments: true
 category: Retrospective
 tags:
