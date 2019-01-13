@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Hello_Node_Kubernetes(Google Study Jams 1th -  Kubernetes in the Google Cloud)
+title: Hello Node Kubernetes(Google Study Jams 1th, Kubernetes in the Google Cloud)
 comments: true
 category: Cloud
 tags:

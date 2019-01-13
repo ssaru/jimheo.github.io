@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: Introduction to Docker(Google Study Jams 1th -  Kubernetes in the Google Cloud)
+title: Introduction to Docker(Google Study Jams 1th,  Kubernetes in the Google Cloud)
 comments: true
 category: Cloud
 tags:
