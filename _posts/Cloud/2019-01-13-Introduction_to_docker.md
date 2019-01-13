@@ -478,7 +478,7 @@ $ docker inspect [container_id]
 - `--format`옵션을 사용해서 반환된 JSON의 특정 필드만 검사할 수 있다.
 
   ```bash
-  $ docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress} {{end}}' [container_id]
+  $ docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}} {{end}}' [container_id]
   >>
   192.168.9.3
   ```
