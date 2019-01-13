@@ -4,7 +4,7 @@ title: Hello Node Kubernetes(Google Study Jams 1th, Kubernetes in the Google Clo
 comments: true
 category: Cloud
 tags:
-- Cloud
+- cloud
 - Kubernetes
 ---
 

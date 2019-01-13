@@ -4,7 +4,7 @@ title: Introduction to Docker(Google Study Jams 1th,  Kubernetes in the Google C
 comments: true
 category: Cloud
 tags:
-- Cloud
+- cloud
 - Kubernetes
 ---
 
