@@ -4,12 +4,12 @@ title: Introducing feature of kubeflow
 comments: true
 category: Deep Learning
 tags:
-- ML
-- Cloud
-- Deep learning
-- Kubernets
-- Serving
-- Deploy
+- ml
+- cloud
+- deep learning
+- kubernets
+- serving
+- deploy
 ---
 
 이전에 Kubeflow가 탄생하게 된 배경과, Kubeflow의 대략적인 기능을 나열한 게시글을 쓴적이 있다. 이를 다시 한번 확인해보고, 이번에는 Kubeflow가 가지고있는 기능들을 조금 더 상세하게 살펴보려고 한다.

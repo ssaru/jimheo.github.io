@@ -4,12 +4,12 @@ title: Introducing Kubeflow
 comments: true
 category: Deep Learning
 tags:
-- ML
-- Cloud
-- Deep learning
-- Kubernets
-- Serving
-- Deploy
+- ml
+- cloud
+- deep learning
+- kubernets
+- serving
+- deploy
 ---
 
 ## 머신러닝(Machine learning)에서 3가지 도전
