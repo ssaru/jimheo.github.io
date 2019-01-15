@@ -2,8 +2,9 @@
 layout: post
 title: Introducing feature of kubeflow
 comments: true
-category: Deep Learning
+category: MLOps
 tags:
+- MLOps
 - ML
 - Cloud
 - Deep learning

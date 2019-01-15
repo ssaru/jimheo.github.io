@@ -2,9 +2,9 @@
 layout: post
 title: Introducing Kubeflow
 comments: true
-category: Deep Learning
+category: MLOps
 tags:
-- ML
+- MLOps
 - Cloud
 - Deep learning
 - Kubernets
