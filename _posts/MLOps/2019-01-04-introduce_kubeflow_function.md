@@ -4,7 +4,6 @@ title: Introducing feature of kubeflow
 comments: true
 category: MLOps
 tags:
-<<<<<<< HEAD:_posts/MLOps/2019-01-04-introduce_kubeflow_function.md
 - MLOps
 - ML
 - Cloud
@@ -12,14 +11,6 @@ tags:
 - Kubernets
 - Serving
 - Deploy
-=======
-- ml
-- cloud
-- deep learning
-- kubernets
-- serving
-- deploy
->>>>>>> 0fee9f606333a87c37fdee028a4f4736fa37525d:_posts/DeepLearning/2019-01-04-introduce_kubeflow_function.md
 ---
 
 이전에 Kubeflow가 탄생하게 된 배경과, Kubeflow의 대략적인 기능을 나열한 게시글을 쓴적이 있다. 이를 다시 한번 확인해보고, 이번에는 Kubeflow가 가지고있는 기능들을 조금 더 상세하게 살펴보려고 한다.
