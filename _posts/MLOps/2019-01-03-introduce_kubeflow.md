@@ -4,12 +4,21 @@ title: Introducing Kubeflow
 comments: true
 category: MLOps
 tags:
+<<<<<<< HEAD:_posts/MLOps/2019-01-03-introduce_kubeflow.md
 - MLOps
 - Cloud
 - Deep learning
 - Kubernets
 - Serving
 - Deploy
+=======
+- ml
+- cloud
+- deep learning
+- kubernets
+- serving
+- deploy
+>>>>>>> 0fee9f606333a87c37fdee028a4f4736fa37525d:_posts/DeepLearning/2019-01-03-introduce_kubeflow.md
 ---
 
 ## 머신러닝(Machine learning)에서 3가지 도전
