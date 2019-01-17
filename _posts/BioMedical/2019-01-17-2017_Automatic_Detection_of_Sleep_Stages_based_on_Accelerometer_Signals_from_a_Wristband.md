@@ -114,7 +114,7 @@ Classification 알고리즘은 `KStar`, `Random committe`, `Random subspace(RS)`
 
 - Sleep score classification을 위한 최적의 feature를 찾기 위해 각 Feature에 대한 information gain 계산했다
 
-  $InfoGain(Class, Feature) = H(Class) -$ $ H(Class|Feature)$
+  $InfoGain(Class, Feature) = H(Class) -  H(Class \mid Feature) $
 
 - x축의 band energy (BE)가 0.32으로 가장 큰 information gain을 갖는다.
 
