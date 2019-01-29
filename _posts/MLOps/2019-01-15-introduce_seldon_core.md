@@ -72,7 +72,7 @@ Machine Learning Service를 제품화하는 과정에서  챌린지는 다음과
 
 
 
-    
+​    
 
 ## Portability
 
@@ -97,7 +97,7 @@ VMware의 파운더이자 CTO인 Joe Beda는 `dev/staging/prod 사이의 차이�
 
 
 
-    
+​    
 
 ## Scalability
 
@@ -138,7 +138,7 @@ VMware의 파운더이자 CTO인 Joe Beda는 `dev/staging/prod 사이의 차이�
 
 
 
-아주 자세하진 않지만 대략적으로 kubeflow의 특징을 알고싶다면 내 이전 글 [Introducing feature of kubeflow](https://ssaru.github.io/deep%20learning/2019/01/04/introduce_kubeflow_function.html)을 확인하자
+아주 자세하진 않지만 대략적으로 kubeflow의 특징을 알고싶다면 내 이전 글 [Introducing feature of kubeflow](https://ssaru.github.io/mlops/2019/01/04/introduce_kubeflow_function.html)을 확인하자
 
 ​    
 
@@ -146,7 +146,7 @@ VMware의 파운더이자 CTO인 Joe Beda는 `dev/staging/prod 사이의 차이�
 
 Seldon-Core는 Kubeflow에서 Serving위해 사용되는 Toolkit이며, Serving을 지원하지 않는 딥러닝 프레임워크들이 Serving이 가능하도록 만들어주는 핵심 기능을 가지고 있다.
 
-    
+​    
 
 ## Challenge 
 
@@ -220,19 +220,19 @@ Seldon-Core는 이러한 Challenge를 풀기위해서 존재하는 Toolkit이며
 
 또한 DevOps와 ML에 걸쳐서 다양한 스킬셋을 가지고있는 데이터 엔지니어의 수는 극히 적다. 이러한 비효율적인 구조는 데이터 사이언티스트가 서비스 및 품질문제에 몰입하게 만들게 되며 이로인해 데이터 사이언티스트가 집중해야할 영역(더 나은 모델을 만드는 것)에서 멀어지게 만든다.
 
-     
+​     
 
 ### 2. Innovation
 
 모델이 실제 Production level에 있는 경우에만 실제 문제에 대한 모델의 성능을 측정할 수 있다. Seldon-Core는 데이터 과학분야를 application release cycle로 부터 분리하여 반복 주기를 더 가속화할 수 있다. AB 테스트나, Multi-Armed Bandit와 같은 실험 프로세스는 종종 기계학습을 위해 디자인되지 않은 툴을 사용하기 때문에 일반적으로 스택에서 굉장히 높은 곳에 위치하고 있다. inference graph와 모델들의 촘촘한 연결은 반복주기를 가속화하며, 유즈 케이스를 신속하게 구축/최적화 하여 혁신과 ROI를 가속화할 수 있다.
 
-    
+​    
 
 ### 3. Freedom
 
 IDC 2017의 연구에 따르면, 상업적인 혹은 백업, 탄력성, 규제와 같은 이유/목적으로 인해서 40%의 유럽조직이 application을 클라우드로 확장하고 있다.  단일 클라우드 ML 시스템에 종속적이지 않은 플랫폼을 사용하면, 다양한 ML 클라우드 시스템 사용을 촉진할 수 있다. 또한 Tensorflow와 같은 DL을 위한 프레임워크가 지속적으로 나오고 있기 때문에 더 빠른 모델 개발을 위해 프레임워크에 종속되지 않는 플랫폼이 필요하다.
 
-    
+​    
 
 ## Introduce Seldon-Core
 
