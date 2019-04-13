@@ -14,8 +14,6 @@ tags:
 
 덕분에 우분투 18.04를 재설치하고 Docker를 이용해 ROS 개발환경을 구축하기로 마음 먹었는데, 쉽게 풀릴 줄 알았던 문제가 생각보다 쉽지 않았다. 이를 해결하는 과정을 풀어보고 마지막에는 ROS개발 환경을 위한 Dockerfile을 만들어보겠다.
 
-
-
 작업환경은 우분투 18.04에서 테스트했다.
 
 <br/>
@@ -233,7 +231,7 @@ CMD ["sudo", "/usr/sbin/sshd", "-D"]
 
 <br/>
 
-### Dockerfile build
+### Build Dockerfile
 
 만든 dockerfile 다음과 같은 명령어를 이용해서 build한다.
 
@@ -316,8 +314,6 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 접속하기 전에 container의 ip와 port를 알아야하기 때문에 container의 network정보를 아래의 명령어로 확인하자
 
 `--format` 의 parameters 부분은 마크다운에서 해당 표현을 하지 못해서 [링크](https://stackoverflow.com/questions/17157721/how-to-get-a-docker-containers-ip-address-from-the-host)를 확인하면 알 수 있다.
-
-
 
 ```bash
 > sudo docker inspect --format='range .NetworkSettings.Networks .IPAddress end' <CONTAINER id or name>
