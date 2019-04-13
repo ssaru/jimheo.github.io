@@ -16,6 +16,16 @@ tags:
 
 작업환경은 우분투 18.04에서 테스트했다.
 
+
+
+혹시 해당 글을 읽기 귀찮고 바로 스크립트만 실행해서 바로 사용하고싶은 사람들은 아래 Repository를 이용하면 바로 작동여부를 확인할 수있다.
+
+
+
+[https://github.com/ssaru/ssh-gui-ros-docker](https://github.com/ssaru/ssh-gui-ros-docker)
+
+
+
 <br/>
 
 ## Common setting
@@ -231,7 +241,7 @@ CMD ["sudo", "/usr/sbin/sshd", "-D"]
 
 <br/>
 
-### Build Dockerfile
+### Build Dockerfile
 
 만든 dockerfile 다음과 같은 명령어를 이용해서 build한다.
 
@@ -356,3 +366,13 @@ applicable law.
 위와같은 화면이 뜨면서 접속이 되면, ssh로 접속이 가능한 docker container를 만든 것이다.
 
 다음에는 docker를 이용해서 gui화면을 띄우는 방법에 대해서 이야기하겠다.
+
+<br/>
+
+### REFERENCE
+
+---
+
+[1. Linux 컨테이너에서 GUI 어플리케이션 실행하기](https://riptutorial.com/ko/docker/example/21831/linux-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%97%90%EC%84%9C-gui-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98-%EC%8B%A4%ED%96%89%ED%95%98%EA%B8%B0)
+
+[2. Dockerize as SSH service](https://docs.docker.com/engine/examples/running_ssh_service/)

@@ -10,17 +10,19 @@ tags:
 - ROS
 ---
 
-
-
 이제 GUI를 지원하는 Docker container를 만들어보자.
+
+
+
+혹시 해당 글을 읽기 귀찮고 바로 스크립트만 실행해서 바로 사용하고싶은 사람들은 아래 Repository를 이용하면 바로 작동여부를 확인할 수있다.
+
+[https://github.com/ssaru/ssh-gui-ros-docker](https://github.com/ssaru/ssh-gui-ros-docker)
 
 
 
 ## Make user account
 
 기본적으로 Docker에서 GUI를 사용하려면 Xorg 즉, host의 X11을 docker의 X11과 연결시켜줘야한다. 앞에 글에서 약간의 힌트가 들어갔는데 host의 Xorg를 docker container와 연결하는 방법은 docker user account의 user id와 user group을 host account의 user id와 group id와 맞춰주는 것이다.
-
-
 
 ```docker
 ARG user
@@ -32,15 +34,15 @@ ARG passwd
 ENV USERNAME ${user}
 
 # Add sudoer s & check /etc/sudoers file
-RUN echo "$USERNAME	ALL=NOPASSWD:	ALL" >> /etc/sudoers
+RUN echo "$USERNAME    ALL=NOPASSWD:    ALL" >> /etc/sudoers
 RUN cat /etc/sudoers
 
 # Add new user with our credentials
 RUN useradd -m $USERNAME && \
-	echo "$USERNAME:$passwd" | chpasswd && \
-	usermod --shell /bin/bash $USERNAME && \
-	usermod --uid ${uid} $USERNAME && \
-	groupmod --gid ${gid} $USERNAME
+    echo "$USERNAME:$passwd" | chpasswd && \
+    usermod --shell /bin/bash $USERNAME && \
+    usermod --uid ${uid} $USERNAME && \
+    groupmod --gid ${gid} $USERNAME
 
 USER ${user}
 WORKDIR /home/${user}
@@ -51,8 +53,6 @@ WORKDIR /home/${user}
 ## Dockerfile
 
 전체적인 dockerfile은 아래와 같다
-
-
 
 ```docker
 FROM ubuntu:16.04
@@ -68,23 +68,23 @@ RUN sed -i 's/us.archive.ubuntu.com/ftp.daum.net/g' /etc/apt/sources.list
 RUN sed -i 's/archive.ubuntu.com/ftp.daum.net/g' /etc/apt/sources.list
 
 RUN apt-get -y update && \
-	apt-get install -y \
-		sudo \
-		vim \
-		sudo \
-		curl \
-		wget \
-		apt \
-		base-files \
-		libapt-pkg5.0 \
-		libc-bin \
-		libkmod2 \
-		libudev1 \
-		multiarch-support \
-		systemd-sysv \
-		baobab \
-		firefox \
-		&& rm -rf /var/lib/apt/lists/*
+    apt-get install -y \
+        sudo \
+        vim \
+        sudo \
+        curl \
+        wget \
+        apt \
+        base-files \
+        libapt-pkg5.0 \
+        libc-bin \
+        libkmod2 \
+        libudev1 \
+        multiarch-support \
+        systemd-sysv \
+        baobab \
+        firefox \
+        && rm -rf /var/lib/apt/lists/*
 
 ARG user
 ARG uid
@@ -95,15 +95,15 @@ ARG passwd
 ENV USERNAME ${user}
 
 # Add sudoer s & check /etc/sudoers file
-RUN echo "$USERNAME	ALL=NOPASSWD:	ALL" >> /etc/sudoers
+RUN echo "$USERNAME    ALL=NOPASSWD:    ALL" >> /etc/sudoers
 RUN cat /etc/sudoers
 
 # Add new user with our credentials
 RUN useradd -m $USERNAME && \
-	echo "$USERNAME:$passwd" | chpasswd && \
-	usermod --shell /bin/bash $USERNAME && \
-	usermod --uid ${uid} $USERNAME && \
-	groupmod --gid ${gid} $USERNAME
+    echo "$USERNAME:$passwd" | chpasswd && \
+    usermod --shell /bin/bash $USERNAME && \
+    usermod --uid ${uid} $USERNAME && \
+    groupmod --gid ${gid} $USERNAME
 
 USER ${user}
 WORKDIR /home/${user}
@@ -161,6 +161,14 @@ or
 > baobab
 ```
 
-
-
 위의 명령어를 실행했을 때, firefox화면이나, baobab gui 화면이뜨면 정상적으로 작동한 것이다.
+
+<br/>
+
+### REFERENCE
+
+---
+
+[1. Linux 컨테이너에서 GUI 어플리케이션 실행하기](https://riptutorial.com/ko/docker/example/21831/linux-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%97%90%EC%84%9C-gui-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98-%EC%8B%A4%ED%96%89%ED%95%98%EA%B8%B0)
+
+[2. Dockerize as SSH service](https://docs.docker.com/engine/examples/running_ssh_service/)
