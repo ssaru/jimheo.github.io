@@ -15,7 +15,6 @@ title: About
 * Deeplearning Engineer in [EnumNet](https://www.enumcut.com/)(2017.05~2017.12)
 * Deeplearning Enginner in [Korea Electronics Technology Institue](https://www.keti.re.kr/main/main.php)(2018.01 ~ )
 
-
 ## Activity
 
 * [Lubycon - PixelStairs](https://github.com/Lubycon)(2015.05~2017.08)
@@ -29,14 +28,20 @@ title: About
 
 * [Hand Gesture Recognition Using sEMG Signals of the Forearm](https://www.dbpia.co.kr/Journal/ArticleDetail/NODE06664240?TotalCount=0&Seq=10&isIdentifyAuthor=1&Collection=0&isFullText=0&specificParam=0&SearchMethod=0&Page=1&PageSize=20)
 
+
+
+## Facebook
+
+- [Martin Hwang](https://www.facebook.com/profile.php?id=100011640813154)
+
 ## Linked in
+
 * [LinkedIn Profile](https://www.linkedin.com/in/martin-hwang/)
 
 ## Github
+
 * [Github Profile](https://github.com/ssaru)
 
 ## Contact
 
 * <dhhwang89@gmail.com>
-
-
