@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1671.4">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    li.li1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    li.li2 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #0000e9; -webkit-text-stroke: #0000e9}
+    span.s1 {font-kerning: none}
+    span.s2 {-webkit-text-stroke: 0px #000000}
+    span.s3 {text-decoration: underline ; font-kerning: none; color: #0000e9}
+    span.s4 {font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
+    ul.ul1 {list-style-type: disc}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">--- layout: page title: ROS ---</span></p>
+<ul class="ul1">
+  <li class="li1"><span class="s2"></span><span class="s1">{% for category in site.categories %} {% for posts in category %} {% for post in posts %} {% if post.category == page.title %}</span></li>
+  <li class="li2"><span class="s2"><b></b><a href="file:///Users/martin/Documents/dev/ssaru.github.io/%7B%7B%20post.url%20%7D%7D"><span class="s3"><b>{{ post.title }}</b></span></a></span><span class="s4"><span class="Apple-converted-space"> </span></span></li>
+  <li class="li1"><span class="s2"></span><span class="s1">{{ post.date | date_to_string }} {% include post_tags.html %} {{ post.content }} <br>
+{% endif %} {% endfor %} {% endfor %} {% endfor %}<span class="Apple-converted-space"> </span></span></li>
+</ul>
+</body>
+</html>
