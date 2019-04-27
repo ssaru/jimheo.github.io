@@ -70,13 +70,13 @@ tags:
 
   집합(set)은 조건제시법을 통해 정의한다.
 
-  - $S = \{\ x\mid 명제\  \}$
+  - $S = ${$\ x\mid 명제\  $}
 
     > - A dog is mammal
     > 
     > - A cat is mammal
     > 
-    > $M = \{\ x\ \mid\ x\ \in mammal\ \}$ 와 같이 추상화해서 표현한다.
+    > $M = $ { $\ \ x\ \mid\ x\ \in mammal\ $ } 와 같이 추상화해서 표현한다.
     > 
     > 이러한 추상화 능력은 인공지능의 기본이 된다.
 
@@ -112,9 +112,9 @@ tags:
 
   - $operator\ \subset \ function$
 
-  - $f\ is\ operator\ if\ f(x) = \sqrt{x},\ x\in\R,\ f(x)\in\R $
+  - $f\ is\ operator\ if\ f(x) = \sqrt{x},\ x\in R,\ f(x)\in R $
 
-  - $f\ is\ function\ if\ f(x)=\sqrt{x},\ x\in Z,\ f(x)\in\R$
+  - $f\ is\ function\ if\ f(x)=\sqrt{x},\ x\in Z,\ f(x)\in R$
 
     > 즉, 함수는 닫혀있다(closed)라는 제약사항이 없다.
 
