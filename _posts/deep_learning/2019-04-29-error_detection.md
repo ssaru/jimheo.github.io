@@ -12,7 +12,7 @@ tags:
 
 오랜만에 논문 리뷰
 
-논문 양도 많지 않고, 깨작깨작 생각을 적어보려한다.
+논문 양도 많지 않고, 깨작깨작 정리해보려고 한다.
 
 # Softmax high-confidence problem
 
@@ -72,4 +72,6 @@ tags:
 
 # Abnormality detection with auxiliary decoders
 
+- 스코어(scorer) 파트와 복원(reconstructor) 파트를 학습 데이터 분포안에 있는 데이터로 학습
 
+- 학습했던 가중치들을 고정(Freeze)한 상태에서 새로운 디코더(Decoder)를 연결하고 학습 데이터 분포와 학습 데이터 분포 외의 데이터를 번갈아가면서 학습함
